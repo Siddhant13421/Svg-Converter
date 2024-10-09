@@ -21,7 +21,7 @@ def convert_svg_to_png(input_folder, output_folder, width=84, height=84):
             print(f"Converted: {svg_file} -> {png_file}")
 
 # Example usage
-input_folder = "PATH/Input_Folder"
-output_folder = "PATH/Output_Folder"
+input_folder = "PATH/InputFolder"
+output_folder = "PATH/OutputFolder"
 
 convert_svg_to_png(input_folder, output_folder, width=84, height=84)
